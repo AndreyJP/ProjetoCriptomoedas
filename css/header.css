@@ -1,0 +1,11 @@
+/*CSS pertinente ao header do site*/
+
+header{
+    background-color: var(--corDeFundo2);
+    text-align: center;
+    padding: 1.2em;
+}
+
+header > h1{
+    font-size: 2em;
+}
