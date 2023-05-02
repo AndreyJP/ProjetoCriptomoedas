@@ -2,8 +2,9 @@
 
 /*Variáveis Root*/
 :root{
-    --corDeFundo1: #171717;
-    --corDeFundo2: #454545;
+    --corDeFundo1: #000000;
+    --corDeFundo2: #171717;
+    --corDeFundo3: #454545;
     --corFontePadrao: #F3F5F9;
     --fontePadrao: Verdana, Geneva, Tahoma, sans-serif;
     --fonteDestaque: 'Courier New', Courier, monospace;
@@ -15,7 +16,7 @@
 }
 
 body{
-    background-color: var(--corDeFundo1);
+    background-color: var(--corDeFundo2);
     color: var(--corFontePadrao);
     font-family: var(--fontePadrao);
 }

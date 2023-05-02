@@ -1,11 +1,33 @@
 /*CSS pertinente ao header do site*/
 
 header{
-    background-color: var(--corDeFundo2);
+    background-color: var(--corDeFundo1);
     text-align: center;
     padding: 1.2em;
+    font-variant: small-caps;
 }
 
 header > h1{
-    font-size: 2em;
+    font-size: 2.5em;
+}
+
+header > p{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav{
+    background-color: var(--corDeFundo3);
+    padding: 1em;
+}
+
+nav > a{
+    padding: 1em;
+    text-decoration: none;
+    color: var(--corFontePadrao);
+    font-weight: bold;
+}
+
+nav > a:hover, nav > a:active, .active{
+    background-color: var(--corDeFundo2);
 }
