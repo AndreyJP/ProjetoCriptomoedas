@@ -1,0 +1,41 @@
+/*CSS da página de moedas*/
+
+h1#titulo{
+    text-align: center;
+    margin: 1em;
+}
+
+div#container1 img{
+    width: 80%;
+}
+
+table#moedas{
+    border-spacing: 0px;
+    margin: 0em 5em 2em 5em;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+table#moedas td{
+    padding: 0.5em;
+}
+
+table#moedas td.coluna1{
+    text-align: center;
+}
+
+table#moedas tr.linhaA{
+    background-color: var(--corDeFundo3);
+}
+
+table#moedas tr.linhaB{
+    background-color: var(--corDeFundo5);
+}
+
+.larguraA{
+    width: 15%;
+}
+
+.larguraB{
+    width: 85%;
+}
