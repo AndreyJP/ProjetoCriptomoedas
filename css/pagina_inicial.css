@@ -3,3 +3,24 @@
 figure#capa img{
     width: 100%;
 }
+
+div.paragrafo1{
+    background-color: var(--corDeFundo3);
+    margin: 2em 1.5em;
+    border-radius: 10px;
+}
+
+div.paragrafo1 > h1{
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    padding: 0.4em;
+    background-color: var(--corDeFundo4);
+}
+
+div.paragrafo1 > p{
+    background-color: var(--corDeFundo5);
+    padding: 0.3em;
+    line-height: 1.5em;
+    border-radius: 0px 0px 10px 10px;
+}
+
