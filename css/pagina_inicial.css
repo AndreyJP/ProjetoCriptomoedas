@@ -10,11 +10,12 @@ div.paragrafo1{
     border-radius: 10px;
 }
 
-div.paragrafo1 > h1{
+div.paragrafo1 > h2{
     text-align: center;
     border-radius: 10px 10px 0px 0px;
     padding: 0.4em;
     background-color: var(--corDeFundo4);
+    font-size: 1.8em;
 }
 
 div.paragrafo1 > p{
