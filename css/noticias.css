@@ -1,0 +1,62 @@
+/* CSS da página de notícias */
+
+h1#titulo{
+    text-align: center;
+    margin: 1em;
+}
+
+div.container-principal{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 2em;
+}
+
+div.video{
+    padding: 0.5em;
+    text-align: center;
+    background-color: var(--corDeFundo3);
+    border-radius: 10px;
+}
+
+div.video > iframe{
+    width: 90%;
+    margin-top: 0.8em;
+}
+
+div.noticia{
+    background-color: var(--corDeFundo3);
+    border-radius: 10px;
+    margin: 0em 0.5em;
+    padding-bottom: 0.7em;
+}
+
+div.noticia > h2{
+    font-size: 1.5em;
+    margin-bottom: 0.7em;
+    padding: 0.7em;
+}
+
+div.noticia > p{
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    padding: 0.7em;
+}
+
+div.noticia a{
+    color: var(--corFontePadrao);
+    font-style: italic;
+    padding: 0.7em;
+}
+
+div.noticia img{
+    width: 100%;
+    height: 40%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.container-secundario{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 2em;
+}
