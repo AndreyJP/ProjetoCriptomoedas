@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/geral.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/fale_conosco.css">
     <title>Criptomoedas - Fale Conosco</title>
 </head>
 
@@ -24,6 +25,25 @@
         <a href="fale_conosco.html" class="active">Fale Conosco</a>
     </nav>
     <h1 id="titulo">Fale Conosco</h1>
+    <div id="formulario">
+        <form action="fale_conosco.html" method="post">
+            <label for="nome">Nome: * </label>
+            <input type="text" placeholder="Seu nome completo" name="nome" id="nome" required>
+            <label for="email">E-mail: * </label>
+            <input type="email" placeholder="Seu melhor e-mail" name="email" id="email" required>
+            <label for="assunto">Assunto: </label>
+            <select name="assunto" id="assunto">
+                <option value="">Selecione um assunto</option>
+                <option value="erro">Reportar erro</option>
+                <option value="noticia">Quero publicar uma notícia</option>
+                <option value="consultoria">Contratar consultoria</option>
+            </select>
+            <label for="mensagem">Mensagem:</label>
+            <textarea name="mensagem" id="mensagem" cols="30" rows="20"></textarea>
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="reset" id="cancelar">Cancelar</button>
+        </form>
+    </div>
 
     <footer>
         <p>Site Criado por Andrey Pereira - Disciplina Desenvolvimento Web I</p>
